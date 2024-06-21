@@ -24,6 +24,7 @@
                 <Entry Placeholder="hola"/>
                 <Entry Placeholder="hola"/>
                 <Entry Placeholder="hola"/>
+                <Label Text="dfjhksjdfh"/>
             </StackLayout>
              
         </Frame>
