@@ -21,6 +21,7 @@
                     <Label Text="Nombre Empresa"  StyleClass="LabelTitulo"/>
                 </StackLayout>
                 <Label Text="Sistema Financiero" StyleClass="LabelTitulo"/>
+                <Label Text="Tengo Hambre WEE"/>
             </StackLayout>
              
         </Frame>
