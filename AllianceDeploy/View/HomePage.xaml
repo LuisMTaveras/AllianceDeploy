@@ -21,9 +21,8 @@
                     <Label Text="Nombre Empresa"  StyleClass="LabelTitulo"/>
                 </StackLayout>
                 <Label Text="Sistema Financiero" StyleClass="LabelTitulo"/>
-                <Label Text="Sistema Financiero" StyleClass="LabelTitulo"/>
-                <Label Text="Sistema Financiero" StyleClass="LabelTitulo"/>
-                
+                <Entry Placeholder="hola"/>
+
             </StackLayout>
              
         </Frame>
