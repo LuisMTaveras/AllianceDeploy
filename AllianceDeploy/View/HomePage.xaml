@@ -23,6 +23,7 @@
                 <Label Text="Sistema Financiero" StyleClass="LabelTitulo"/>
                 <Entry Placeholder="hola"/>
                 <Entry Placeholder="hola"/>
+                <Entry Placeholder="hola"/>
             </StackLayout>
              
         </Frame>
