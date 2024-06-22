@@ -5,7 +5,8 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:AllianceDeploy"
     Shell.FlyoutBehavior="Disabled"
-    Title="AllianceDeploy">
+    Title="AllianceDeploy" BackgroundColor="{AppThemeBinding Dark={StaticResource Darkbar}, Light={StaticResource Lightbar}}"
+    Shell.TitleColor="{AppThemeBinding Dark={StaticResource DarkText}, Light={StaticResource LightText}}">
 
     <ShellContent
         Title="Iniciar Sesión"
