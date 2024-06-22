@@ -13,4 +13,11 @@
         Title="Iniciar Sesión"
         ContentTemplate="{DataTemplate local:View.HomePage}"
         Route="MainPage" />
+    <Shell.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="{AppThemeBinding Dark={StaticResource DarkStatusBar}, Light={StaticResource LightStatusBar}}"/>
+    </Shell.Behaviors>
+    <Shell.ToolbarItems>
+        <ToolbarItem Text="Configuracion" Order="Secondary"/>
+    </Shell.ToolbarItems>
+    
 </Shell>
