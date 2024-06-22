@@ -34,7 +34,7 @@
             <StackLayout >
                 <Label x:Name="Actualizacion" StyleClass="LabelSec" FontSize="Large" FontAttributes="Bold"/>
                 <StackLayout>
-                    <Label x:Name="ACT" Text="1.29.1"  StyleClass="LabelSec"/>
+                    <Label x:Name="VersionApp" Text="1.29.1"  StyleClass="LabelSec"/>
                     <Button ImageSource="cloud.png" StyleClass="ButtonPrincipal"  CornerRadius="100" WidthRequest="90" 
                     HeightRequest="90" VerticalOptions="EndAndExpand" HorizontalOptions="End"/>
                 </StackLayout>
