@@ -43,7 +43,6 @@
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
@@ -57,6 +56,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="View\HomePages\**" />
+	  <Compile Remove="View\HomePages\**" />
+	  <EmbeddedResource Remove="View\HomePages\**" />
+	  <MauiCss Remove="View\HomePages\**" />
+	  <MauiXaml Remove="View\HomePages\**" />
+	  <None Remove="View\HomePages\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Resources\Images\computer.png" />
 	  <None Remove="Resources\Images\deploy.png" />
 	  <None Remove="Resources\Images\edificio.png" />
@@ -65,6 +73,7 @@
 	  <None Remove="Resources\Images\merge.png" />
 	  <None Remove="Resources\Images\office.png" />
 	  <None Remove="Resources\Images\security.png" />
+	  <None Remove="Resources\Splash\logo.svg" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -81,7 +90,10 @@
 	  <Folder Include="Model\" />
 	  <Folder Include="Datos\" />
 	  <Folder Include="ViewModel\" />
-	  <Folder Include="View\HomePages\" />
+	</ItemGroup>
+
+svg	<ItemGroup>
+	  <Page Include="Resources\Splash\logo.svg" />
 	</ItemGroup>
 
 	<ItemGroup>
