@@ -21,7 +21,6 @@
     <Color x:Key="BackGroundLight">#ECEFF1</Color>
     <!--#endregion-->
 
-
     <Color x:Key="DarkText">#818181</Color>
     <Color x:Key="LightText">#ECF0F1</Color>
 

@@ -2,7 +2,9 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AllianceDeploy.View.HomePage"
-             BackgroundColor="{AppThemeBinding Light={StaticResource BackGroundLight},Dark={StaticResource BackGroundDark}}" Title="Alliance Deploy">
+             BackgroundColor="{AppThemeBinding Light={StaticResource BackGroundLight},Dark={StaticResource BackGroundDark}}" Title="Alliance Deploy"
+             xmlns:mdc="clr-namespace:Material.Components.Maui;assembly=Material.Components.Maui"
+             xmlns:icon="clr-namespace:IconPacks.IconKind;assembly=IconPacks.Material">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -26,10 +28,14 @@
                     <Label Text="SISTEMA ADMINISTRATIVO"  StyleClass="LabelTitulo"/>
                 </StackLayout>
                 
-                <StackLayout Orientation="Horizontal">
-                    <Image Source="merge"/>
-                    <mdc:Button Text="button" />
-                    <Label Text="1.24.3"  StyleClass="LabelTitulo"/>
+                <StackLayout>
+                   
+                    <mdc:Card  Style="{DynamicResource ElevatedCardStyle}" HorizontalOptions="Start" StyleClass="FramePrincipal">
+                        <StackLayout>
+                            <Label Text="hola"/>
+                            <Image Source="computer"/>
+                        </StackLayout>
+                    </mdc:Card>
                 </StackLayout>
             </StackLayout>
         </Frame>
