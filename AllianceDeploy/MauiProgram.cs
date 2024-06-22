@@ -1,4 +1,6 @@
-﻿using CommunityToolkit.Maui;
+﻿
+using AllianceDeploy.View;
+using CommunityToolkit.Maui;
 using Microsoft.Extensions.Logging;
 
 
@@ -21,7 +23,6 @@ namespace AllianceDeploy
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
-
             return builder.Build();
         }
     }

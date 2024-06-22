@@ -5,7 +5,6 @@
         public AppShell()
         {
             InitializeComponent();
-            Shell.SetFlyoutItemIsVisible(this, false);
         }
     }
 }

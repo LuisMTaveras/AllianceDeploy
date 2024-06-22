@@ -26,19 +26,31 @@
 
         <Frame StyleClass="FramePrincipal" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0" BorderColor="Black">
             <StackLayout>
-                <StackLayout Orientation="Horizontal">
-                    <Image Source="office"/>
-                    <Label x:Name="NSistema"  StyleClass="LabelTitulo"/>
+                <Label Text="Aplicación de Cobros" StyleClass="LabelSec" FontSize="Title"/>
+                <Label Text="V 3.2.14" StyleClass="LabelTitulo" FontSize="45"/>
+                <Label Text="Actualización Disponible" StyleClass="LabelSec"/>
+                <Label Text="20 Junio 2024" StyleClass="LabelSec" FontSize="Large" FontAttributes="Bold"/>
+                <Image Source="deploy.png" HeightRequest="200"/>
+            </StackLayout>
+        </Frame>
+
+        <Frame Grid.Row="1" StyleClass="FramePrincipal" Grid.Column="0" BorderColor="Black">
+            <StackLayout>
+                <Label Text="Actualizar APP" StyleClass="LabelSec" FontSize="Large" FontAttributes="Bold"/>
+                <StackLayout Orientation="Horizontal" >
+                    <Label Text="V 7.3.18"  StyleClass="LabelSec"/>
+                    <Button ImageSource="cloud.png" StyleClass="ButtonPrincipal"  CornerRadius="100" WidthRequest="90" 
+                    HeightRequest="90" VerticalOptions="EndAndExpand" HorizontalOptions="End"/>
                 </StackLayout>
-                <StackLayout Orientation="Horizontal">
-                    <Image Source="computer"/>
-                    <Label  Text="SISTEMA ADMINISTRATIVO"  StyleClass="LabelTitulo"/>
-                </StackLayout>
-                
-                <StackLayout Orientation="Horizontal">
-                    <Image Source="merge"/>
-                    <Label Text="1.24.3"  StyleClass="LabelTitulo"/>
-                </StackLayout>
+            </StackLayout>
+        </Frame>
+        
+        <Frame Grid.Row="1" StyleClass="FramePrincipal" Grid.Column="1" BorderColor="Black">
+            <StackLayout>
+                <Label Text="Historial de Cambios" StyleClass="LabelSec" FontSize="Large" FontAttributes="Bold"/>
+                <Button ImageSource="cloud.png" StyleClass="ButtonPrincipal"  CornerRadius="100" WidthRequest="90"  
+         HeightRequest="90" VerticalOptions="EndAndExpand" HorizontalOptions="End"/>
+
             </StackLayout>
         </Frame>
     </Grid>
