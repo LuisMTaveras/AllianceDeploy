@@ -6,7 +6,7 @@ namespace AllianceDeploy.View;
 
 public partial class HomePage : ContentPage
 {
-	string nombreemp ="Juan Medina SRL";
+	string nombreemp ="Alliance S.R.L";
     string version = "APP No Instalada";
 
     public HomePage()
