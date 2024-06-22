@@ -20,11 +20,6 @@
                     <Image Source="edificio.png" HeightRequest="40"/>
                     <Label Text="Nombre Empresa"  StyleClass="LabelTitulo"/>
                 </StackLayout>
-                <Label Text="Sistema Financiero" StyleClass="LabelTitulo"/>
-                <Entry Placeholder="hola"/>
-                <Entry Placeholder="hola"/>
-                <Entry Placeholder="hola"/>
-                <Label Text="dfjhksjdfh"/>
             </StackLayout>
              
         </Frame>
