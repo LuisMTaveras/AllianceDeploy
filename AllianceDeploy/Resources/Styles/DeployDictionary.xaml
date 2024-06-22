@@ -23,10 +23,7 @@
         <Setter Property="BackgroundColor" Value="{AppThemeBinding Dark={StaticResource DarkFrame}, Light={StaticResource LightFrame}}" />
     </Style>
 
-    <Style TargetType="NavigationPage" x:Key="Navegacion">
-        <Setter Property="BackgroundColor" Value="#2196F3"/>
-        <Setter Property="BarTextColor" Value="Black"/>
-    </Style>
+  
     <!--#endregion-->
 
     <!--#region Theme -->
