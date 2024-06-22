@@ -11,6 +11,6 @@
 
     <ShellContent
         Title="Iniciar Sesión"
-        ContentTemplate="{DataTemplate local:View.Login.LoginPage}"
+        ContentTemplate="{DataTemplate local:View.HomePage}"
         Route="MainPage" />
 </Shell>
