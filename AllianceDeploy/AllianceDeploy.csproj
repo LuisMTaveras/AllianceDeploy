@@ -57,9 +57,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\computer.png" />
 	  <None Remove="Resources\Images\deploy.png" />
 	  <None Remove="Resources\Images\edificio.png" />
 	  <None Remove="Resources\Images\edificioo.png" />
+	  <None Remove="Resources\Images\git.png" />
+	  <None Remove="Resources\Images\merge.png" />
+	  <None Remove="Resources\Images\office.png" />
 	  <None Remove="Resources\Images\security.png" />
 	</ItemGroup>
 

@@ -10,25 +10,27 @@
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        
+
         <Frame StyleClass="FramePrincipal" Grid.Column="0" Grid.Row="0">
             <StackLayout>
                 <StackLayout Orientation="Horizontal">
+                    <Image Source="office"/>
                     <Label x:Name="NSistema"  StyleClass="LabelTitulo"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="computer"/>
+                    <Label Text="SISTEMA ADMINISTRATIVO"  StyleClass="LabelTitulo"/>
+                </StackLayout>
+                
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="merge"/>
+                    <Label Text="1.24.3"  StyleClass="LabelTitulo"/>
                 </StackLayout>
             </StackLayout>
         </Frame>
-
-        <Frame StyleClass="FramePrincipal" Grid.Column="0" Grid.Row="1">
-                <StackLayout >
-                    <StackLayout Orientation="Horizontal">
-
-                    </StackLayout>
-                </StackLayout>
-            </Frame>
     </Grid>
 </ContentPage>
