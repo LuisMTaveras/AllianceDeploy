@@ -8,6 +8,6 @@ public partial class HomePage : ContentPage
 	{
 		InitializeComponent();
 		NSistema.Text = nombreemp.ToUpper();
-        
+		this.Title = nombreemp;
     }
 }
