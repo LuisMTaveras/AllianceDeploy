@@ -28,6 +28,7 @@
                 
                 <StackLayout Orientation="Horizontal">
                     <Image Source="merge"/>
+                    <mdc:Button Text="button" />
                     <Label Text="1.24.3"  StyleClass="LabelTitulo"/>
                 </StackLayout>
             </StackLayout>

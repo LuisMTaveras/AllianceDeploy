@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using Material.Components.Maui.Extensions;
 
 namespace AllianceDeploy
 {
@@ -9,6 +10,7 @@ namespace AllianceDeploy
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
+                .UseMaterialComponents()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
