@@ -4,8 +4,9 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:AllianceDeploy"
-    Shell.FlyoutBehavior="Disabled"
-    Title="AllianceDeploy" BackgroundColor="{AppThemeBinding Dark={StaticResource Darkbar}, Light={StaticResource Lightbar}}"
+    Shell.FlyoutBehavior="Flyout"
+    Shell.FlyoutItemIsVisible="True"
+    Title="AllianceDeploy" BackgroundColor="{AppThemeBinding Dark={StaticResource DarkBar}, Light={StaticResource LightBar}}"
     Shell.TitleColor="{AppThemeBinding Dark={StaticResource DarkText}, Light={StaticResource LightText}}">
 
     <ShellContent

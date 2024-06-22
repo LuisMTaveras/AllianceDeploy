@@ -4,8 +4,11 @@
              x:Class="AllianceDeploy.View.HomePage"
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              BackgroundColor="{AppThemeBinding Light={StaticResource BackGroundLight},Dark={StaticResource BackGroundDark}}" Title="Alliance Deploy">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Configuracion" Order="Secondary"/>
+    </ContentPage.ToolbarItems>
     <ContentPage.Behaviors>
-        <toolkit:StatusBarBehavior StatusBarColor="Blue"/>
+        <toolkit:StatusBarBehavior StatusBarColor="{AppThemeBinding Dark={StaticResource DarkStatusBar}, Light={StaticResource LightStatusBar}}"/>
     </ContentPage.Behaviors>
     <Grid>
         <Grid.ColumnDefinitions>
