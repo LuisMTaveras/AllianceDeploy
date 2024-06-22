@@ -7,7 +7,6 @@ public partial class HomePage : ContentPage
 	public HomePage()
 	{
 		InitializeComponent();
-		NSistema.Text = nombreemp.ToUpper();
 		this.Title = nombreemp;
     }
 }

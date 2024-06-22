@@ -6,7 +6,7 @@
 
     <!--#region BackgroudColor -->
     <Color x:Key="BackGroundDark">#90a4ae</Color>
-    <Color x:Key="BackGroundLight">#eceff1</Color>
+    <Color x:Key="BackGroundLight">#F5F1ED</Color>
     <!--#endregion-->
 
     <!--#region Label -->
@@ -15,13 +15,13 @@
     <!--#endregion-->
 
     <!--#region Frame -->
-    <Color x:Key="DarkFrame">#546e7a</Color>
-    <Color x:Key="LightFrame">#90a4ae</Color>
+    <Color x:Key="DarkFrame">#73A6AD</Color>
+    <Color x:Key="LightFrame">#F3FAE1</Color>
     <!--#endregion-->
 
     <!--#region Bar -->
     <Color x:Key="DarkBar">#223243</Color>
-    <Color x:Key="LightBar">#919191</Color>
+    <Color x:Key="LightBar">#90a4ae</Color>
     <!--#endregion-->
 
     <!--#region StatusBarColor -->
@@ -30,8 +30,8 @@
     <!--#endregion-->
 
     <!--#region Button -->
-    <Color x:Key="DarkButton">#ffc107</Color>
-    <Color x:Key="LightButton">#ffcf33</Color>
+    <Color x:Key="DarkButton">#B1822F</Color>
+    <Color x:Key="LightButton">#F8D34F</Color>
     <!--#endregion-->
 
     

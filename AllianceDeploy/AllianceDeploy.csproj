@@ -65,15 +65,18 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\change.png" />
+	  <None Remove="Resources\Images\cloud.png" />
 	  <None Remove="Resources\Images\computer.png" />
 	  <None Remove="Resources\Images\deploy.png" />
 	  <None Remove="Resources\Images\edificio.png" />
 	  <None Remove="Resources\Images\edificioo.png" />
 	  <None Remove="Resources\Images\git.png" />
+	  <None Remove="Resources\Images\image004.png" />
+	  <None Remove="Resources\Images\install.png" />
 	  <None Remove="Resources\Images\merge.png" />
 	  <None Remove="Resources\Images\office.png" />
 	  <None Remove="Resources\Images\security.png" />
-	  <None Remove="Resources\Splash\logo.svg" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -90,10 +93,7 @@
 	  <Folder Include="Model\" />
 	  <Folder Include="Datos\" />
 	  <Folder Include="ViewModel\" />
-	</ItemGroup>
-
-svg	<ItemGroup>
-	  <Page Include="Resources\Splash\logo.svg" />
+	  <Folder Include="View\HomePages\" />
 	</ItemGroup>
 
 	<ItemGroup>

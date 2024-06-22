@@ -8,9 +8,20 @@
     <Style Class="LabelTitulo" TargetType="Label">
         <Setter Property="FontAttributes" Value="Bold"/>
         <Setter Property="Padding" Value="5"/>
+        <Setter Property="FontSize" Value="Title" />
+        <Setter Property="TextColor" Value="{AppThemeBinding Dark={StaticResource DarkText}, 
+                                            Light={StaticResource LightText}}" />
+        <Setter Property="HorizontalOptions" Value="Start" />
+    </Style>
+    <!--#endregion-->
+
+    <!--#region LabelSec -->
+    <Style Class="LabelSec" TargetType="Label">
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="Padding" Value="5"/>
         <Setter Property="FontSize" Value="Subtitle" />
-        <Setter Property="TextColor" Value="{AppThemeBinding Dark={StaticResource LightText}, 
-                                            Light={StaticResource DarkText}}" />
+        <Setter Property="TextColor" Value="{AppThemeBinding Dark={StaticResource DarkText}, 
+                                        Light={StaticResource LightText}}" />
         <Setter Property="HorizontalOptions" Value="Start" />
     </Style>
     <!--#endregion-->
