@@ -18,7 +18,7 @@
             <StackLayout >
                 <StackLayout Orientation="Horizontal">
                     <Image Source="edificio.png" HeightRequest="40"/>
-                    <Label Text="Nombre Empresa"  StyleClass="LabelTitulo"/>
+                    <Label x:Name="NSistema"  StyleClass="LabelTitulo"/>
                 </StackLayout>
             </StackLayout>
              
