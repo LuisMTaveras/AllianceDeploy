@@ -17,35 +17,39 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
 
         <Frame StyleClass="FramePrincipal" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0" BorderColor="Black">
             <StackLayout>
                 <Label x:Name="TipoApp" StyleClass="LabelSec" FontSize="Title"/>
                 <Label x:Name="AppVersion" StyleClass="LabelTitulo" FontSize="45"/>
-                <Label x:Name="siact" StyleClass="LabelSec"/>
-                <Label Text="20 Junio 2024" StyleClass="LabelSec" FontSize="Large" FontAttributes="Bold"/>
+                <Label x:Name="ACTUALIZACION" StyleClass="LabelSec"/>
+                <Label x:Name="FechaAppUpdate" StyleClass="LabelSec" FontSize="Large" FontAttributes="Bold"/>
                 <Image Source="deploy.png" HeightRequest="200"/>
             </StackLayout>
         </Frame>
 
         <Frame Grid.Row="1" StyleClass="FramePrincipal" Grid.Column="0" BorderColor="Black">
+           
             <StackLayout >
-                <Label x:Name="Actualizacion" StyleClass="LabelSec" FontSize="Large" FontAttributes="Bold"/>
-                <StackLayout>
-                    <Label x:Name="VersionApp" Text="1.29.1"  StyleClass="LabelSec"/>
-                    <Button ImageSource="cloud.png" StyleClass="ButtonPrincipal"  CornerRadius="100" WidthRequest="90" 
-                    HeightRequest="90" VerticalOptions="EndAndExpand" HorizontalOptions="End"/>
-                </StackLayout>
+                <Label Text="Version De Servidor:" StyleClass="LabelSec" FontSize="Large" FontAttributes="Bold"/>
+                <Label x:Name="APPSERVER" Text="1.29.1"  StyleClass="LabelSec"/>
+                <Label Text="Actualizar"  StyleClass="LabelSec"/>
+                <Button ImageSource="cloud.png" StyleClass="ButtonPrincipal"  CornerRadius="100" WidthRequest="60" 
+                        HeightRequest="60" VerticalOptions="StartAndExpand" HorizontalOptions="End"/>
+
             </StackLayout>
         </Frame>
-        
-        <Frame Grid.Row="1" StyleClass="FramePrincipal" Grid.Column="1" BorderColor="Black">
-            <StackLayout>
-                <Label Text="Historial de Cambios" StyleClass="LabelSec" FontSize="Large" FontAttributes="Bold"/>
-                <Button ImageSource="cloud.png" StyleClass="ButtonPrincipal"  CornerRadius="100" WidthRequest="90"  
-                HeightRequest="90" VerticalOptions="EndAndExpand" HorizontalOptions="End"/>
+
+        <Frame Grid.Row="3" StyleClass="FramePrincipal" Grid.Column="0" Grid.ColumnSpan="2" BorderColor="Black">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer x:Name="HistorialCambios"
+     Tapped="HistorialCambios_Tapped"
+     NumberOfTapsRequired="1" />
+            </Frame.GestureRecognizers>
+            <StackLayout >
+                <Label Text="Historial de Cambios" StyleClass="LabelTitulo" VerticalOptions="Center" HorizontalOptions="Center"/>
             </StackLayout>
         </Frame>
     </Grid>

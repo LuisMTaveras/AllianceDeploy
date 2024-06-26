@@ -2,8 +2,6 @@
 using Android.Content.PM;
 #endif
 
-using System.ComponentModel.Design;
-
 namespace AllianceDeploy.View;
 
 public partial class HomePage : ContentPage
@@ -16,6 +14,7 @@ public partial class HomePage : ContentPage
         InitializeComponent();
         this.Title = nombreemp;
         AppVersion.Text = GetWhatsAppVersion();
+        FechaAppUpdate.Text = DateTime.Now.ToString("D");
     }
     string GetWhatsAppVersion()
     {
@@ -25,24 +24,24 @@ public partial class HomePage : ContentPage
         if (TipoSistema == 1)
         {
             AppName = "com.alliance.rebs.pedidosapp";
-            VersionApp.Text = "11.0";
-
+            TipoApp.Text = "APP PEDIDOS";
+            APPSERVER.Text = "11.0";
         }
         else
         {
             if (TipoSistema == 2)
             {
                 AppName = "com.alliance.rebs.cobrosapp";
-                VersionApp.Text = "4.0";
+                TipoApp.Text = "APP COBROS";
+                APPSERVER.Text = "4.0";
             }
             else
             {
                 AppName = "com.alliance.rebs.gasolinerasapp";
-                VersionApp.Text = "1.0";
+                TipoApp.Text = "APP GASOLINERA";
+                APPSERVER.Text = "1.0";
             }
         }
-    
-
 #if __ANDROID__
             try
             {
@@ -55,9 +54,12 @@ public partial class HomePage : ContentPage
             {
                 version = "APP No Instalada";
             }
-
 #endif
-
         return version;
+    }
+
+    private void HistorialCambios_Tapped(object sender, TappedEventArgs e)
+    {
+        DisplayAlert("Tapped", "Frame tapped!", "OK");
     }
 }

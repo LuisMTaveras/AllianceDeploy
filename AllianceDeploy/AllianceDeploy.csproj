@@ -56,12 +56,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <AndroidResource Remove="View\HomePages\**" />
-	  <Compile Remove="View\HomePages\**" />
-	  <EmbeddedResource Remove="View\HomePages\**" />
-	  <MauiCss Remove="View\HomePages\**" />
-	  <MauiXaml Remove="View\HomePages\**" />
-	  <None Remove="View\HomePages\**" />
+	  <AndroidResource Remove="View\HistorialCambios\**" />
+	  <Compile Remove="View\HistorialCambios\**" />
+	  <EmbeddedResource Remove="View\HistorialCambios\**" />
+	  <MauiCss Remove="View\HistorialCambios\**" />
+	  <MauiXaml Remove="View\HistorialCambios\**" />
+	  <None Remove="View\HistorialCambios\**" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -77,6 +77,7 @@
 	  <None Remove="Resources\Images\merge.png" />
 	  <None Remove="Resources\Images\office.png" />
 	  <None Remove="Resources\Images\security.png" />
+	  <None Remove="Resources\Images\verticalbar.png" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -93,7 +94,7 @@
 	  <Folder Include="Datos\" />
 	  <Folder Include="Model\" />
 	  <Folder Include="ViewModel\" />
-	  <Folder Include="View\HomePages\" />
+	  <Folder Include="View\HistorialCambios\" />
 	</ItemGroup>
 
 	<ItemGroup>
