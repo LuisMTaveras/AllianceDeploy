@@ -2,6 +2,9 @@
 using Android.Content.PM;
 #endif
 
+using CommunityToolkit.Maui.Views;
+using Mopups.Services;
+
 namespace AllianceDeploy.View;
 
 public partial class HomePage : ContentPage
@@ -60,6 +63,6 @@ public partial class HomePage : ContentPage
 
     private void HistorialCambios_Tapped(object sender, TappedEventArgs e)
     {
-        DisplayAlert("Tapped", "Frame tapped!", "OK");
+        MopupService.Instance.PushAsync(new historialCambiosPage());
     }
 }
