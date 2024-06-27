@@ -89,10 +89,11 @@
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.60" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 		<PackageReference Include="Mopups" Version="1.3.1" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Datos\" />
+	  <Folder Include="Data\" />
 	  <Folder Include="Model\" />
 	  <Folder Include="ViewModel\" />
 	</ItemGroup>
