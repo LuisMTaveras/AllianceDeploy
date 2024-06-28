@@ -65,6 +65,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Data\CambiosPedido.json" />
 	  <None Remove="Resources\Images\change.png" />
 	  <None Remove="Resources\Images\cloud.png" />
 	  <None Remove="Resources\Images\computer.png" />
@@ -81,6 +82,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Content Include="CambiosPedido.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Maui" Version="9.0.1" />
 		<PackageReference Include="CommunityToolkit.Maui.Core" Version="9.0.1" />
 		<PackageReference Include="IconPacks.Material" Version="1.0.8940.2-build" />
@@ -93,8 +100,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Data\" />
-	  <Folder Include="Model\" />
 	  <Folder Include="ViewModel\" />
 	</ItemGroup>
 

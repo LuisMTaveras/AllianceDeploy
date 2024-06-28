@@ -1,43 +1,42 @@
-
-  {
-    "nombre_app": "Pedidos Mobile",
-    "tipo_app": "pedido",
-    "versiones": [
-      {
-        "version": "2.0.0",
-        "fecha_lanzamiento": "2024-06-01",
-        "cambios": [
-          "Rediseño completo de la interfaz",
-          "Nuevas características de personalización",
-          "Mejoras en la seguridad de la aplicación"
-        ]
-      },
-      {
-        "version": "1.2.0",
-        "fecha_lanzamiento": "2024-03-15",
-        "cambios": [
-          "Integración con redes sociales",
-          "Nuevo sistema de notificaciones",
-          "Corrección de errores reportados por usuarios"
-        ]
-      },
-      {
-        "version": "1.1.0",
-        "fecha_lanzamiento": "2023-12-10",
-        "cambios": [
-          "Añadida funcionalidad de búsqueda",
-          "Mejoras en la interfaz de usuario",
-          "Optimización del rendimiento"
-        ]
-      },
-      {
-        "version": "1.0.0",
-        "fecha_lanzamiento": "2023-06-25",
-        "cambios": [
-          "Lanzamiento inicial",
-          "Funcionalidad básica añadida",
-          "Corrección de errores menores"
-        ]
-      }
-    ]
-  }
+{
+  "nombre_app": "Pedidos Mobile",
+  "tipo_app": "pedido",
+  "versiones": [
+    {
+      "version": "2.0.0",
+      "fecha_lanzamiento": "2024-06-01",
+      "cambios": [
+        "Rediseño completo de la interfaz",
+        "Nuevas características de personalización",
+        "Mejoras en la seguridad de la aplicación"
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "fecha_lanzamiento": "2024-03-15",
+      "cambios": [
+        "Integración con redes sociales",
+        "Nuevo sistema de notificaciones",
+        "Corrección de errores reportados por usuarios"
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "fecha_lanzamiento": "2023-12-10",
+      "cambios": [
+        "Añadida funcionalidad de búsqueda",
+        "Mejoras en la interfaz de usuario",
+        "Optimización del rendimiento"
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "fecha_lanzamiento": "2023-06-25",
+      "cambios": [
+        "Lanzamiento inicial",
+        "Funcionalidad básica añadida",
+        "Corrección de errores menores"
+      ]
+    }
+  ]
+}

@@ -2,8 +2,11 @@ namespace AllianceDeploy.View.Login;
 
 public partial class LoginPage : ContentPage
 {
-	public LoginPage()
+   
+    public LoginPage()
 	{
 		InitializeComponent();
+  
+
     }
 }
